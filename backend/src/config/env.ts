@@ -22,7 +22,7 @@ export const env = {
     port: Number(process.env.DB_PORT ?? 5432),
     name: required('DB_NAME', 'job_portal'),
     user: required('DB_USER', 'postgres'),
-    password: required('DB_PASSWORD', 'Sulfath@3636'),
+    password: required('DB_PASSWORD', 'postgres'),
   },
   jwt: {
     accessSecret: required('JWT_ACCESS_SECRET', 'dev_access_secret_change_me'),
